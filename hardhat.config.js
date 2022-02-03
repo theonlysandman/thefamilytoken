@@ -5,13 +5,14 @@ require("hardhat-gas-reporter");
 
 // Go to https://www.alchemyapi.io, sign up, create
 // a new App in its dashboard, and replace "KEY" with its key
-const ALCHEMY_API_KEY = "OKzWvCOJMvteaTmlp1zU_fhdLrb0qVoG";
+const ALCHEMY_API_KEY = "{}";
 
 // Replace this private key with your Ropsten account private key
 // To export your private key from Metamask, open Metamask and
 // go to Account Details > Export Private Key
 // Be aware of NEVER putting real Ether into testing accounts
-const ROPSTEN_PRIVATE_KEY = "d190cabdba9d666246314d7171a2ddb94dfa8501e188a6d6c9fb119d06b11e9e";
+const ROPSTEN_PRIVATE_KEY = "{NEVER SHARE YOUR PRIVATE KEY!}";
+const PRODUCTION_PRIVATE_KEY = "{NO REALLY NEVER SHARE YOUR PRIVATE KEY!}";
 
 /**
  * @type import('hardhat/config').HardhatUserConfig
